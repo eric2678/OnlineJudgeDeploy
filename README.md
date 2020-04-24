@@ -5,8 +5,8 @@
 1. 安裝必要的依賴
 
     ```bash
-        sudo apt-get update && sudo apt-get install -y vim python-pip curl git
-        pip install docker-compose
+    sudo apt-get update && sudo apt-get install -y vim python-pip curl git
+    pip install docker-compose
     ```
     
     
