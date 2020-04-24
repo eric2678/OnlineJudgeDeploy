@@ -131,28 +131,28 @@ Windows 下的安裝僅供體驗，勿在生產環境使用。如有必要，請
         
         處理方式如下:
         
-            - 將當前用戶加入 docker 群組，在【Terminal】中輸入下方指令
+        - 將當前用戶加入 docker 群組，在【Terminal】中輸入下方指令
             
-                ```bash
-                sudo gpasswd -a ${USER} docker
-                ```
+            ```bash
+            sudo gpasswd -a ${USER} docker
+            ```
                 
-            - 退出當前用戶，在【Terminal】中輸入下方指令
+         - 退出當前用戶，在【Terminal】中輸入下方指令
                 
-                ```bash
-                sudo su
-                ```
+            ```bash
+            sudo su
+            ```
             
-            - 再次切换到 ubuntu 用戶，在【Terminal】中輸入下方指令
+         - 再次切换到 ubuntu 用戶，在【Terminal】中輸入下方指令
             
-                ```bash
-                su ubuntu
-                ```
-            - 啟動 docker-compose，在【Terminal】中輸入下方指令
+            ```bash
+            su ubuntu
+            ```
+         - 啟動 docker-compose，在【Terminal】中輸入下方指令
             
-                ```bash
-                docker-compose up -d
-                ```
+            ```bash
+            docker-compose up -d
+            ```
     
     根據網速情況，大約5到30分鐘就可以自動搭建完成，全程無需人工干預。
 
