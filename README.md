@@ -38,17 +38,11 @@ Windows 下的安裝僅供體驗，勿在生產環境使用。如有必要，請
     git clone -b 2.0 https://github.com/QingdaoU/OnlineJudgeDeploy.git && cd OnlineJudgeDeploy
     ```
 
-    ```bash
-    git clone -b 2.0 https://github.com/QingdaoU/OnlineJudgeDeploy.git && cd OnlineJudgeDeploy  
-    ```
-
-
 2. 啟動服務
 
-    ```bash
+    ```bash
     docker-compose up -d  
     ```
-
 
 根據網速情況，大約5到30分鐘就可以自動搭建完成，全程無需人工干預。
 
