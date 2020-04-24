@@ -130,17 +130,33 @@ Windows 下的安裝僅供體驗，勿在生產環境使用。如有必要，請
         ```
         
         處理方式如下:
-            - 將當前用戶加入 docker 群組，在 【 Terminal 】中輸入下方指令
+        
+            - 將當前用戶加入 docker 群組，在【Terminal】中輸入下方指令
             
                 ```bash
                 sudo gpasswd -a ${USER} docker
                 ```
-            - 1
-
+                
+            - 退出當前用戶，在【Terminal】中輸入下方指令
+                
+                ```bash
+                sudo su
+                ```
+            
+            - 再次切换到 ubuntu 用戶，在【Terminal】中輸入下方指令
+            
+                ```bash
+                su ubuntu
+                ```
+            - 啟動 docker-compose，在【Terminal】中輸入下方指令
+            
+                ```bash
+                docker-compose up -d
+                ```
     
-根據網速情況，大約5到30分鐘就可以自動搭建完成，全程無需人工干預。
+    根據網速情況，大約5到30分鐘就可以自動搭建完成，全程無需人工干預。
 
-等命令執行完成，然後運行 `docker ps -a`，當看到所有的容器的狀態沒有 `unhealthy` 或 `Exited (x) xxx` 就代表 OJ 已經啟動成功。
+    等命令執行完成，然後運行 `docker ps -a`，當看到所有的容器的狀態沒有 `unhealthy` 或 `Exited (x) xxx` 就代表 OJ 已經啟動成功。
 
 ## 盡情享用吧
 
