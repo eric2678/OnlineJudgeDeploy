@@ -40,7 +40,7 @@ Windows 下的安裝僅供體驗，勿在生產環境使用。如有必要，請
 2. 啟動服務
 
     ```bash
-        docker-compose up -d  
+    docker-compose up -d  
     ```
 
 
