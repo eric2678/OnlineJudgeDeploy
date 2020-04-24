@@ -4,13 +4,12 @@
 
 1. 安裝必要的依賴
 
-    ```
-    sudo apt-get update && sudo apt-get install -y vim python-pip curl git
-    pip install docker-compose
-    ```
+    `sudo apt-get update && sudo apt-get install -y vim python-pip curl git`
+    `pip install docker-compose`
 
 2. 安裝 Docker
     
+    
     詳細步驟參照： [https://docs.docker.com/install/](https://docs.docker.com/install/)
 
 ### Windows 環境
