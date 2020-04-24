@@ -10,18 +10,18 @@
     ```
     
 2. 安裝 Docker
-    
-    (1) 卸載舊版本
+
+    - 卸載舊版本
         Docker的舊版本為docker，docker.io或docker-engine。如果已安裝，請卸載它們：
         
            ```bash
            sudo apt-get remove docker docker-engine docker.io containerd runc
            ```
            
-    (2) 使用存儲庫安裝
+    - 使用存儲庫安裝
         在新主機上首次安裝Docker Engine之前，需要設置Docker存儲庫。之後就可以從存儲庫安裝和更新Docker。
 
-        A. 設置存儲庫
+        - 設置存儲庫
         更新apt軟件包索引並安裝軟件包以允許apt通過HTTPS使用存儲庫：
         
         ```bash
@@ -37,7 +37,7 @@
             software-properties-common
         ```
         
-        B. 添加Docker的官方GPG密鑰：
+        - 添加Docker的官方GPG密鑰：
         
         ```bash
         curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
