@@ -33,14 +33,14 @@ Windows 下的安裝僅供體驗，勿在生產環境使用。如有必要，請
 1. 請選擇磁盤空間富餘的位置，運行下面的命令
 
     ```bash
-        git clone -b 2.0 https://github.com/QingdaoU/OnlineJudgeDeploy.git && cd OnlineJudgeDeploy
+    git clone -b 2.0 https://github.com/QingdaoU/OnlineJudgeDeploy.git && cd OnlineJudgeDeploy  
     ```
 
 
 2. 啟動服務
 
     ```bash
-        docker-compose up -d
+        docker-compose up -d  
     ```
 
 
