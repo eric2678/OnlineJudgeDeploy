@@ -4,15 +4,12 @@
 
 1. 安裝必要的依賴
 
-    ```bash
+    ...bash
     sudo apt-get update && sudo apt-get install -y vim python-pip curl git
     pip install docker-compose
-    ```
+    ...
 
 2. 安裝 Docker
-
-    國內用戶使用腳本一鍵安裝: `sudo curl -sSL https://get.daocloud.io/docker | sh`
-    國外用戶使用腳本一鍵安裝: `sudo curl -sSL get.docker.com | sh`
     
     詳細步驟參照： [https://docs.docker.com/install/](https://docs.docker.com/install/)
 
@@ -33,15 +30,15 @@ Windows 下的安裝僅供體驗，勿在生產環境使用。如有必要，請
 
 1. 請選擇磁盤空間富餘的位置，運行下面的命令
 
-    ```bash
+    ...bash
     git clone -b 2.0 https://github.com/QingdaoU/OnlineJudgeDeploy.git && cd OnlineJudgeDeploy
-    ```
+    ...
 
 2. 啟動服務
 
-    ```bash
+    ...bash
     docker-compose up -d
-    ```
+    ...
 
 根據網速情況，大約5到30分鐘就可以自動搭建完成，全程無需人工干預。
 
