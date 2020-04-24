@@ -2,7 +2,7 @@
 
 ### Linux 環境
 
-1. 安裝必要的依賴
+1. 安裝必要的物件
 
     ```bash
     sudo apt-get update && sudo apt-get install -y vim python-pip curl git
