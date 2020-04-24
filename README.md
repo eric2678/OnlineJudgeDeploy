@@ -126,6 +126,7 @@ Windows 下的安裝僅供體驗，勿在生產環境使用。如有必要，請
     - 如果出現
     
         ```
+        your_name@ubuntu:~/OnlineJudgeDeploy$ docker-compose up -d
         ERROR: Couldn't connect to Docker daemon at http+docker://localunixsocket - is it running?
         ```
         
@@ -143,10 +144,10 @@ Windows 下的安裝僅供體驗，勿在生產環境使用。如有必要，請
             sudo su
             ```
             
-         - 再次切换到 ubuntu 用戶，在【Terminal】中輸入下方指令
+         - 再次切换到 your_name 用戶，在【Terminal】中輸入下方指令
             
             ```bash
-            su ubuntu
+            su your_name
             ```
          - 啟動 docker-compose，在【Terminal】中輸入下方指令
             
